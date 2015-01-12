@@ -17,6 +17,9 @@
  ! keycode 204 = NoSymbol Alt_L NoSymbol Alt_L
  ! keycode 206 = NoSymbol Super_L NoSymbol Super_L
 
+
+ ! Tips: `setxkbmap -layout gb` to restore keymapping to standard GB keyboard;
+ !       `xev` for util that detects keypress event and tells you the keycode
  clear control
  clear mod1
  keycode 37 = Alt_L Meta_L
