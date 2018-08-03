@@ -1,0 +1,16 @@
+
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	lol = log --graph --decorate --pretty=oneline --abbrev-commit
+	lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+	df = diff
+[user]
+	name = Adrian Teng
+	email = adrian@teng.io
+[push]
+	default = simple
+[pull]
+	rebase = true
